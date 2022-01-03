@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
 
 body{
 background-image: url('space.jpg');
@@ -13,6 +13,7 @@ color: gold;
 header{
   position:relative;
   text-align: center;
+  font-family: 'Pushster', cursive;
 }
 
 
@@ -60,20 +61,29 @@ section p{
 }
 /*images*/
 div[class~=row]{
+  padding:4px;
+  margin-left:0px;
   display: flex;
   flex-flow: row wrap;
-opacity:0.5;
-}
-div[class~=row]:hover{
-  display: flex;
-  flex-flow: row wrap;
-  cursor: pointer;
-  opacity: 1;
+  align-content: center;
 
 }
+
 img[src~="gerald.jpg"]{
     position: relative;
   height:25rem;
   width:auto;
   object-fit: fill;
+ flex:1 250px;
+ opacity:0.5;
+
+}
+
+img[src~="gerald.jpg"]:hover{
+ display: flex;
+  flex-flow: row wrap;
+  cursor: pointer;
+  opacity: 1;
+
+
 }
