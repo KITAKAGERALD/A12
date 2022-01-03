@@ -1,7 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
-
+*{
+  list-style:none;
+  
+}
 body{
 background-image: url('space.jpg');
 background-repeat: no-repeat;
@@ -14,9 +17,31 @@ header{
   position:relative;
   text-align: center;
   font-family: 'Pushster', cursive;
+  margin: 1rem;
+  width:ffit-content;
+}
+header:hover{
+  cursor:pointer;
+    color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
 }
 
+h3{
+    height:2rem;
+   position: relative;
+   text-align: center;
+   padding:1.2rem;
 
+
+}
 
 /*-nav--*/
 
@@ -32,7 +57,7 @@ nav ul{
 nav ul li{
 cursor: pointer;
  height: 3rem;
-flex:1 3rem;
+flex:1 1.6rem;
 width:fit-content;
 }
 nav ul li:hover{
@@ -43,7 +68,7 @@ width:fit-content;
 color:rgba(0%, 50%, 50%,1.0);
 font-size:2rem;
 }
-li[class ~="bi"]{
+*[class ~="bi"]{
   font-size: 1.8rem;
 
 }
@@ -62,21 +87,22 @@ section p{
 /*images*/
 div[class~=row]{
   padding:4px;
-  margin-left:0px;
-  display: flex;
-  flex-flow: row wrap;
-  align-content: center;
+ margin:3rem;
+  display:flex;
+  flex-flow:row wrap;
+position: relative;
 
 }
 
 img[src~="gerald.jpg"]{
-    position: relative;
-  height:25rem;
+  min-height: auto; 
+  max-height:25rem;
   width:auto;
   object-fit: fill;
  flex:1 250px;
  opacity:0.5;
-
+  justify-content: center;
+  border-radius: 15px;
 }
 
 img[src~="gerald.jpg"]:hover{
