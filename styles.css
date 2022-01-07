@@ -8,6 +8,8 @@
   
 }
 body{
+  height: 100%vh;
+  width: auto;
 background-image: url('space.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -57,6 +59,8 @@ nav ul{
   display: flex;
   flex-flow:row wrap;
  justify-content:space-between;
+width:9rem;
+height:auto;
  
 }
 nav ul li{
@@ -67,6 +71,8 @@ width:fit-content;
  
 }
 nav ul li:hover{
+  border-left: 1px solid gold;
+   border-bottom: 1px solid gold;
 cursor: pointer;
  height: 3rem;
 flex:1 3rem;
@@ -74,7 +80,7 @@ width:fit-content;
 color:rgba(0%, 50%, 50%,1.0);
 font-size:2rem;
 }
-*[class ~="bi"]{
+[class ~="bi"] *{
   font-size: 1.8rem;
 
 }
@@ -107,6 +113,7 @@ position: relative;
 }
 
 img[src~="gerald.jpg"]{
+   display: flex;
   min-height: auto; 
   max-height:25rem;
   width:auto;
@@ -118,7 +125,7 @@ img[src~="gerald.jpg"]{
 }
 
 img[src~="gerald.jpg"]:hover{
- display: flex;
+
   flex-flow: row wrap;
   cursor: pointer;
   opacity: 1;
