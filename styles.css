@@ -17,9 +17,7 @@ background-blend-mode: normal;
 color: gold;
 
 }
-*p{
-  
-}
+
 header{
   position:relative;
   text-align: center;
@@ -59,14 +57,14 @@ nav ul{
   display: flex;
   flex-flow:row wrap;
  justify-content:space-between;
-width:9rem;
-height:auto;
+
  
 }
 nav ul li{
 cursor: pointer;
  height: 3rem;
-flex:1 1.6rem;
+ width: 1.5em ;
+border:1px solid black;
 width:fit-content;
  
 }
@@ -75,25 +73,25 @@ nav ul li:hover{
    border-bottom: 1px solid gold;
 cursor: pointer;
  height: 3rem;
-flex:1 3rem;
+flex:2 0.5rem;
 width:fit-content;
 color:rgba(0%, 50%, 50%,1.0);
 font-size:2rem;
 }
-[class ~="bi"] *{
+* [class ~="bi"]{
   font-size: 1.8rem;
 
 }
 section{
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 section p{
   margin:1rem;
   font-size: 1.2em;
   padding:4rem;
   line-height:1.6 ;
-  height: 1rem;
+  height:fit-content;
   font-family: 'Fjalla One', sans-serif;
 }
 footer ul[id="social"]{
