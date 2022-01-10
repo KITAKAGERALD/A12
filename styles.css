@@ -167,3 +167,12 @@ div[id="slider"]{
   margin: 2px;
   justify-content: space-around;
 }
+
+
+special{
+  flex-flow: row wrap;
+  cursor: pointer;
+  opacity: 1;
+
+
+}

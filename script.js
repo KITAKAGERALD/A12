@@ -9,11 +9,26 @@ $(document).ready(()=>{
     $('#more').addClass('touched');
     
   });
+  //images
 
-$('.list-image').on('click',()=>{
-  var point = $(this).attr("src");
-  console.log("point");
-  console.log(point)
-  })
+$('#myPhoto').on('click',()=>{
+  $('body').css({"background-image":"url('myPhoto.jpg')"});
+});
+$('#bg2').on('click',()=>{
+  $('body').css({"background-image":"url('bg2.jpg')"});
+});
+$('#bg3').on('click',()=>{
+  $('body').css({"background-image":"url('bg3.jpg')"});
+});
+$('#bg1').on('click',()=>{
+  $('body').css({"background-image":"url('bg1.webp')"});
+});
+$('#space').on('click',()=>{
+  $('body').css({"background-image":"url('space.jpg')"});
+});
+///////////
+$('#gerald').on('click',()=>{
+  $('#gerald').css("opacity","1");
+})
 
 })
