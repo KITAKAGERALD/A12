@@ -10,7 +10,8 @@
 body{
   height: 100%vh;
   width: auto;
-background-image: url('template.jpg');
+background-image: url('bg3.jpg');
+background-size:cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-blend-mode: normal;
@@ -153,8 +154,16 @@ div[id="slider"]{
   height:6rem;
   width:5rem;
 }
+/*optional backgrounds*/
 .list-image{
-  height:2rem;
-  width:2rem;
+  cursor: pointer;
+  height:4rem;
+  width:4rem;
   border-radius:15px;
+}
+#optional-bg{
+  display: flex;
+  flex-flow: row wrap;
+  margin: 2px;
+  justify-content: space-around;
 }

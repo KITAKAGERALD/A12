@@ -1,7 +1,7 @@
 $(document).ready(()=>{
   $('#contact-link').on('click',()=>{
     $('#contacts').slideToggle('slow');
-    $('#contacts').addClass('touched');
+    
     
   });
    $('#more-btn').on('click',()=>{
@@ -9,4 +9,11 @@ $(document).ready(()=>{
     $('#more').addClass('touched');
     
   });
+
+$('.list-image').on('click',()=>{
+  var point = $(this).attr("src");
+  console.log("point");
+  console.log(point)
+  })
+
 })
