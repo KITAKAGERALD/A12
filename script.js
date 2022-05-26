@@ -36,4 +36,10 @@ $('#gerald').on('click',()=>{
   $('#gerald').css("opacity","1");
 })
 
+$('#11').on('click',()=>{
+  $('body').css({"background-image":"url('11.jpg')"});
+});
+
+
+
 })
