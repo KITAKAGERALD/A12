@@ -161,11 +161,20 @@ div[id="slider"]{
   width:4rem;
   border-radius:15px;
 }
+.list-image:hover{
+  transition:.4s;
+  height:5rem;
+  width:5rem;
+}
 #optional-bg{
   display: flex;
   flex-flow: row wrap;
   margin: 2px;
   justify-content: space-around;
+}
+.list-image{
+
+  
 }
 
 
