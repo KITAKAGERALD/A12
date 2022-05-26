@@ -11,8 +11,8 @@ $(document).ready(()=>{
   });
   //images
 
-$('#myPhoto').on('click',()=>{
-  $('body').css({"background-image":"url('myPhoto.jpg')"});
+$('#gerald1').on('click',()=>{
+  $('body').css({"background-image":"url('gerald1.webp.jpg')"});
 });
 
 $('#bg2').on('click',()=>{
